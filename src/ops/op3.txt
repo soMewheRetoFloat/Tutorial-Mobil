@@ -1,3 +1,0 @@
-2
-5 P1 P1 P1 P1 LIT 
-4 MOV TL MOV TR 
