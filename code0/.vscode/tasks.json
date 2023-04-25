@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "--std=c++11",
+                "${file}",
+                "point.cpp",
+                "compare.cpp",
+                "priority_queue.cpp",
+                "-o",
+                "${fileDirname}\\..\\all exe\\${fileBasenameNoExtension}.exe",
+                "-fexec-charset=GBK"
+            ],
+            "options": {
+                "cwd": "C:/msys64/mingw64/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "调试器生成的任务。"
+        }
+    ],
+    "version": "2.0.0"
+}
