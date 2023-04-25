@@ -1,1 +1,1 @@
-#Some models with copyright
+#going mobile
