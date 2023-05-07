@@ -93,6 +93,31 @@ inline void mergesort2(int *a, int length)
 	delete[] reg;
 }
 
+template<class _Tp>
+void swap(_Tp* a, _Tp* b) {
+	_Tp x = *a;
+	*a = *b;
+	*b = x;
+}
+
+template<class _Tp>
+void heapswap(_Tp* root, int start, int end) {
+	index = start;
+	while (index < end) {
+		int son = indx * 2 + 1;
+		if root[son + 1] > root[son] {
+			son++;
+		}
+		if (root[son] < root[index]) {
+			swap(root[son], root[index]);
+			index = son;
+		}
+		else {
+			break;
+		}
+	}
+}
+
 int main () {
 	return 0;
 }

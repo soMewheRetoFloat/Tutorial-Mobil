@@ -1,4 +1,8 @@
 #include <iostream>
+#include <queue>
+
+priority_queue<int> pri_q;
+
 using namespace std;
 class Animal {
  public:

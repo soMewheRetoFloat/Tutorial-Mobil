@@ -9,9 +9,6 @@
                 "-g",
                 "--std=c++11",
                 "${file}",
-                "point.cpp",
-                "compare.cpp",
-                "priority_queue.cpp",
                 "-o",
                 "${fileDirname}\\..\\all exe\\${fileBasenameNoExtension}.exe",
                 "-fexec-charset=GBK"
